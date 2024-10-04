@@ -85,6 +85,12 @@ img {
   width: 80%;
 }
 
+.project {
+  border: 3px outset #aaa;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 0px 20px 0px;
+}
+
 a[download]:link {
   color: red;
   text-decoration: underline;
@@ -94,11 +100,17 @@ a[download]:visited {
   color: green;
 }
 
-input:focus {
-  border: 1px solid #aaa;
+input,
+textarea {
+  border: 3px outset #aaa;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px inset #aaa;
+  outline: none;
 }
 
 input[type="submit"] {
   background-color: white;
-  border: 0.5px solid gray;
 }
