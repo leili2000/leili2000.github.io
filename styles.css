@@ -79,3 +79,12 @@ a[download]:link {
 a[download]:visited {
   color: green;
 }
+
+input:focus {
+  border: 1px solid #aaa;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: 0.5px solid gray;
+}
