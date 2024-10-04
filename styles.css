@@ -12,11 +12,17 @@ body {
 }
 
 main {
-  padding: 0 20px 40px 20px;
+  padding: 0 60px 40px 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* CSS for navigation bar */
@@ -70,6 +76,13 @@ main {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+.big-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 a[download]:link {
