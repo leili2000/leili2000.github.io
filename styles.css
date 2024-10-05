@@ -12,11 +12,12 @@ body {
 }
 
 main {
-  padding: 0 60px 40px 60px;
+  padding: 0 15% 40px 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 70%;
 }
 
 img {
@@ -82,13 +83,34 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 60%;
 }
 
 .project {
   border: 3px outset #aaa;
   padding: 20px 20px 20px 20px;
   margin: 20px 0px 20px 0px;
+  background-color: white;
+}
+
+.resume {
+  width: 50%;
+  border: 3px outset #aaa;
+  padding: 2% 5% 2% 5%;
+  margin: 3% 0px 3% 0px;
+  background-color: white;
+}
+
+.text-header {
+  border-bottom: 2px solid #aaa;
+}
+
+.text-header h2 {
+  margin-bottom: 0px;
+}
+
+.text-header p {
+  margin-top: 5px;
 }
 
 a[download]:link {
