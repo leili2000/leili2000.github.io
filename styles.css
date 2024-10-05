@@ -113,6 +113,22 @@ img {
   margin-top: 5px;
 }
 
+.blog-entry {
+  width: 55%;
+  border: 3px outset #aaa;
+  padding: 2% 5% 2% 5%;
+  margin: 3% 0px 3% 0px;
+  background-color: white;
+}
+
+.blog-img {
+  border: 1px dashed black;
+}
+
+.blog-title {
+  text-align: center;
+}
+
 a[download]:link {
   color: red;
   text-decoration: underline;
